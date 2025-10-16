@@ -15,6 +15,7 @@ public class MyPetShopApplication {
         kPrinter.print("Java");
         jPrinter.printWithHelper();
         kPrinter.printWithHelper();
+        kPrinter.printFromKotlin();
 		SpringApplication.run(MyPetShopApplication.class, args);
 	}
 
