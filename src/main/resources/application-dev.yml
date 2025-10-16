@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: ${DEV_DB_URL:jdbc:postgresql://localhost:5432/my_pet_shop}
+    username: ${DEV_DB_USER:postgres}
+    password: ${DEV_DB_PASSWORD:postgres}
+    driver-class-name: ${DEV_DB_DRIVER:org.postgresql.Driver}
